@@ -70,7 +70,7 @@ const Navbar = () => {
           className="btn btn-ghost text-xl font-bold text-primary hover:bg-transparent p-0"
           onClick={() => setActiveTab('learn')}
         >
-          <span className="text-accent">Code</span>Ace
+          <span className="text-accent">Dev</span>Arena.AI
         </NavLink>
         
         <div className="flex space-x-2">
@@ -164,7 +164,7 @@ const Navbar = () => {
               )}
              
               <li>
-                <Link to={'https://drive.google.com/file/d/1lYOgoCJEz1Ly7KmndsUbH7HLjalcsGE2/view?usp=drivesdk'} target='blank'>
+                <Link to={'https://drive.google.com/file/d/1zOdiClvfVZYtdDTz_nEde6sQxRt7e4Vy/view?usp=sharing'} target='blank'>
          
             Documentiation
         
