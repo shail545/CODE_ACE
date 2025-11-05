@@ -10,6 +10,7 @@ const feedback = async (req, res) => {
             });
         }
 
+        
         if (req.body.questions.length !== req.body.answers.length) {
             return res.status(400).json({
                 error: "Questions and answers arrays must be of equal length"
