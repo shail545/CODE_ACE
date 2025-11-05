@@ -7,6 +7,7 @@ import axiosClient from '../utils/axiosClient';
 const Navbar = () => {
   const { user } = useSelector((state) => state.auth);
   const [activeTab, setActiveTab] = useState('');
+  
   const [profilePhoto, setProfilePhoto] = useState(null);
   const navigate = useNavigate();
   const dispatch = useDispatch();
